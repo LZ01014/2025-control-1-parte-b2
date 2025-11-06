@@ -4,6 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>es.grise.upm.profundizacio</groupId>
+  <artifactId>cruiseController</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -40,6 +41,12 @@
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
     </dependency>
+    <dependency>
+		    <groupId>org.mockito</groupId>
+		    <artifactId>mockito-core</artifactId>
+		    <version>5.19.0</version>
+		    <scope>test</scope>
+		</dependency>
   </dependencies>
 
   <build>
